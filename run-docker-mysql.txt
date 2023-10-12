@@ -1,0 +1,1 @@
+docker run --name sso-react-nodejs2 --privileged -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=sso -p 3309:3306 -d mysql:8.0
